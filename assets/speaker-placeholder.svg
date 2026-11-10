@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title description">
+  <title id="title">Speaker image coming soon</title>
+  <desc id="description">GopherCon archive speaker placeholder</desc>
+  <rect width="600" height="600" fill="#dce9ed"/>
+  <circle cx="300" cy="245" r="110" fill="#5dc9d7"/>
+  <path d="M120 600c18-142 83-214 180-214s162 72 180 214" fill="#4a7a87"/>
+  <text x="300" y="92" text-anchor="middle" fill="#132c36" font-family="sans-serif" font-size="30" font-weight="700" letter-spacing="5">GOPHERCON</text>
+  <text x="300" y="555" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="700" letter-spacing="3">IMAGE COMING SOON</text>
+</svg>

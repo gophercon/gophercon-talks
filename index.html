@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Browse talks and speakers from GopherCon, year by year." />
+    <title>GopherCon Archive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Prompt:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="app.js?v=5"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#/" aria-label="GopherCon Archive home">
+        <span class="brand-mark" aria-hidden="true"><span>Go</span></span>
+        <span><strong>GopherCon</strong><small>Talk archive</small></span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#/talks" data-nav="talks">Talks</a>
+        <a href="#/speakers" data-nav="speakers">Speakers</a>
+        <label class="year-picker">Year
+          <select id="year-select" aria-label="Conference year"></select>
+        </label>
+      </nav>
+    </header>
+
+    <main id="content" tabindex="-1">
+      <div class="loading" role="status">Opening archive…</div>
+    </main>
+
+    <footer>
+      <span>GopherCon Talk Archive</span>
+      <span>Community knowledge, kept findable.</span>
+      <a href="https://www.gophercon.com/">Visit GopherCon</a>
+    </footer>
+  </body>
+</html>
